@@ -76,6 +76,10 @@ VThunai is a free, open-source, cross-platform companion application built with 
 
 ## Getting Started
 
+### Installing on iOS (Sideloading)
+
+Pre-built unsigned `.ipa` files (`VThunai.ipa`) are published on the [GitHub Releases](https://github.com/santhosh-D-subramani/VThunai/releases) page. To install on your iOS device, download `VThunai.ipa` and sideload it using a sideloader such as **AltStore**, **SideStore**, or any other iOS sideloading tool.
+
 ### Prerequisites
 - Flutter SDK compatible with Dart `^3.13.7`
 - Android Studio / Android SDK (for Android builds)
@@ -112,7 +116,7 @@ VThunai is a free, open-source, cross-platform companion application built with 
 
 ## CI/CD
 
-The repository includes a GitHub Actions workflow at `.github/workflows/build_ios.yml` that builds an unsigned iOS `.ipa` (`VThunai.ipa`) on `macos-26` using Xcode 26.4.1 and Flutter `3.47.8` on pushes to `main` or manual `workflow_dispatch`.
+The repository includes a GitHub Actions workflow at `.github/workflows/build_ios.yml` that builds an unsigned iOS `.ipa` (`VThunai.ipa`) on `macos-26` using Xcode 26.4.1 and Flutter `3.47.8` on pushes to `main` or manual `workflow_dispatch`, and publishes it to GitHub Releases (`V <version>`).
 
 ## Credential Handling and Privacy
 

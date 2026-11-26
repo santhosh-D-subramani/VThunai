@@ -9,6 +9,9 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
+permissions:
+  contents: write
+
 jobs:
   build_ios:
     name: Build iOS
@@ -86,3 +89,17 @@ jobs:
         with:
           name: VThunai_ios
           path: VThunai.ipa
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ steps.vars.outputs.version }}
+          name: V ${{ steps.vars.outputs.version }}
+          draft: false
+          prerelease: false
+          files: VThunai.ipa
+          body: |
+            VThunai v${{ steps.vars.outputs.version }}
+
+            ### iOS
+            Use a sideloader like [AltStore](https://altstore.io/) or [SideStore](https://sidestore.io/) (or any other iOS sideloader) to sideload `VThunai.ipa`.
