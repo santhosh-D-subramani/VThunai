@@ -3,6 +3,8 @@ name: Build iOS IPA
 on:
   push:
     branches: ["main"]
+    paths-ignore:
+      - "source.json"
   workflow_dispatch:
 
 concurrency:
@@ -103,3 +105,50 @@ jobs:
 
             ### iOS
             Use a sideloader like [AltStore](https://altstore.io/) or [SideStore](https://sidestore.io/) (or any other iOS sideloader) to sideload `VThunai.ipa`.
+
+      - name: Update source.json
+        env:
+          APP_VERSION: ${{ steps.vars.outputs.version }}
+          BUILD_DATE: ${{ steps.vars.outputs.date }}
+          GITHUB_REPO: ${{ github.repository }}
+        run: |
+          python3 - << 'EOF'
+          import json
+          import os
+
+          version = os.environ["APP_VERSION"]
+          date = os.environ["BUILD_DATE"]
+          repo = os.environ["GITHUB_REPO"]
+          size = os.path.getsize("VThunai.ipa")
+          download_url = f"https://github.com/{repo}/releases/download/v{version}/VThunai.ipa"
+
+          with open("source.json", "r", encoding="utf-8") as f:
+              data = json.load(f)
+
+          new_entry = {
+              "version": version,
+              "date": date,
+              "size": size,
+              "downloadURL": download_url,
+              "localizedDescription": f"Automated build {version}",
+          }
+
+          versions = [
+              v for v in data["apps"][0].get("versions", [])
+              if v.get("version") != version
+          ]
+          data["apps"][0]["versions"] = [new_entry] + versions
+
+          with open("source.json", "w", encoding="utf-8") as f:
+              json.dump(data, f, indent=4)
+              f.write("\n")
+          EOF
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add source.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Chore: update source.json for v${{ steps.vars.outputs.version }} [skip ci]"
+            git pull --rebase
+            git push
+          fi
