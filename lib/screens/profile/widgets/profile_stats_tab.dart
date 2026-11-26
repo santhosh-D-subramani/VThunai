@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:valorant_thunai/services/valorant_api.dart';
-import 'package:valorant_thunai/services/session_stats_service.dart';
+import 'package:vthunai/services/valorant_api.dart';
+import 'package:vthunai/services/session_stats_service.dart';
 import 'package:http/http.dart' as http;
 
 import 'dart:convert';
 
-import 'package:valorant_thunai/l10n/app_localizations.dart';
+import 'package:vthunai/l10n/app_localizations.dart';
 
 class _MatchClutches {
   final int attempts;

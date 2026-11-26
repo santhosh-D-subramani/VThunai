@@ -1,6 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:valorant_thunai/models/app_notification.dart';
+import 'package:vthunai/models/app_notification.dart';
 
 import 'remote_config_service.dart';
 import 'logger_service.dart';

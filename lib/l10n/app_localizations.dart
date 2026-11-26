@@ -539,7 +539,7 @@ abstract class AppLocalizations {
   /// Offline overlay description
   ///
   /// In en, this message translates to:
-  /// **'You are currently offline. Please restore your connection to continue using Valorant Thunai.'**
+  /// **'You are currently offline. Please restore your connection to continue using VThunai.'**
   String get connectionLostDescription;
 
   /// Retry button label
@@ -653,13 +653,13 @@ abstract class AppLocalizations {
   /// Subject line when sharing logs
   ///
   /// In en, this message translates to:
-  /// **'Valorant Thunai Diagnostic Logs'**
+  /// **'VThunai Diagnostic Logs'**
   String get shareLogsSubject;
 
   /// Footer message
   ///
   /// In en, this message translates to:
-  /// **'Thank you for using Valorant Thunai!'**
+  /// **'Thank you for using VThunai!'**
   String get thankYouUsingApp;
 
   /// System logs screen title
@@ -1061,7 +1061,7 @@ abstract class AppLocalizations {
   /// Welcome title
   ///
   /// In en, this message translates to:
-  /// **'Welcome to Valorant Thunai'**
+  /// **'Welcome to VThunai'**
   String get welcomeToValShop;
 
   /// Welcome subtitle
@@ -1241,7 +1241,7 @@ abstract class AppLocalizations {
   /// Settings item title
   ///
   /// In en, this message translates to:
-  /// **'Rate Valorant Thunai'**
+  /// **'Rate VThunai'**
   String get rateValShopTitle;
 
   /// Settings item subtitle
@@ -2817,7 +2817,7 @@ abstract class AppLocalizations {
   /// Normal update dialog body
   ///
   /// In en, this message translates to:
-  /// **'A new version (v{version}) of Valorant Thunai is ready! Update now for new features and bug fixes.'**
+  /// **'A new version (v{version}) of VThunai is ready! Update now for new features and bug fixes.'**
   String updateAvailableBody(String version);
 
   /// Error message when item type is unknown

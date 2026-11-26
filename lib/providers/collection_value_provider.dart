@@ -1,6 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:valorant_thunai/providers/loadout_provider.dart';
-import 'package:valorant_thunai/providers/skin_provider.dart';
+import 'package:vthunai/providers/loadout_provider.dart';
+import 'package:vthunai/providers/skin_provider.dart';
 
 const List<String> kSkinEntitlementItemTypeIds = [
   'e7c63390-eda7-46e0-bb7a-a6abdacd2433',

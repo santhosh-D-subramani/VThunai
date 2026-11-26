@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:valorant_thunai/providers/display_settings_provider.dart';
-import 'package:valorant_thunai/services/notification_service.dart';
-import 'package:valorant_thunai/l10n/app_localizations.dart';
-import 'package:valorant_thunai/utils/format_utils.dart';
+import 'package:vthunai/providers/display_settings_provider.dart';
+import 'package:vthunai/services/notification_service.dart';
+import 'package:vthunai/l10n/app_localizations.dart';
+import 'package:vthunai/utils/format_utils.dart';
 
 class NotificationsScreen extends ConsumerWidget {
   const NotificationsScreen({super.key});

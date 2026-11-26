@@ -1,10 +1,10 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:valorant_thunai/l10n/app_localizations.dart';
-import 'package:valorant_thunai/providers/game_info_provider.dart';
-import 'package:valorant_thunai/common/funny_loading_view.dart';
-import 'package:valorant_thunai/screens/hub/game_info/weapon_detail_screen.dart';
+import 'package:vthunai/l10n/app_localizations.dart';
+import 'package:vthunai/providers/game_info_provider.dart';
+import 'package:vthunai/common/funny_loading_view.dart';
+import 'package:vthunai/screens/hub/game_info/weapon_detail_screen.dart';
 
 class WeaponsScreen extends ConsumerWidget {
   const WeaponsScreen({super.key});

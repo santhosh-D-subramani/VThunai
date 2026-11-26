@@ -4,12 +4,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:valorant_thunai/providers/contracts_provider.dart';
-import 'package:valorant_thunai/providers/display_settings_provider.dart';
-import 'package:valorant_thunai/common/funny_loading_view.dart';
-import 'package:valorant_thunai/providers/profile_provider.dart';
-import 'package:valorant_thunai/theme/app_theme.dart';
-import 'package:valorant_thunai/utils/format_utils.dart';
+import 'package:vthunai/providers/contracts_provider.dart';
+import 'package:vthunai/providers/display_settings_provider.dart';
+import 'package:vthunai/common/funny_loading_view.dart';
+import 'package:vthunai/providers/profile_provider.dart';
+import 'package:vthunai/theme/app_theme.dart';
+import 'package:vthunai/utils/format_utils.dart';
 
 class ProfileContractsTab extends ConsumerStatefulWidget {
   const ProfileContractsTab({super.key});

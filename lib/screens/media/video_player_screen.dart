@@ -2,10 +2,10 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 
-import 'package:valorant_thunai/common/funny_loading_view.dart';
+import 'package:vthunai/common/funny_loading_view.dart';
 import 'package:video_player/video_player.dart';
-import 'package:valorant_thunai/services/video_cache_manager.dart';
-import 'package:valorant_thunai/l10n/app_localizations.dart';
+import 'package:vthunai/services/video_cache_manager.dart';
+import 'package:vthunai/l10n/app_localizations.dart';
 
 class FullScreenVideoPlayer extends StatefulWidget {
   final String videoUrl;

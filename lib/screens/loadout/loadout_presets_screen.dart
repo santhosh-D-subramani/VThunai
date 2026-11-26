@@ -2,17 +2,17 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:valorant_thunai/models/loadout_preset.dart';
-import 'package:valorant_thunai/providers/weapons_provider.dart';
-import 'package:valorant_thunai/providers/preset_provider.dart';
-import 'package:valorant_thunai/providers/skin_provider.dart';
-import 'package:valorant_thunai/utils/weapon_asset_resolver.dart';
-import 'package:valorant_thunai/common/funny_loading_view.dart';
-import 'package:valorant_thunai/providers/auto_loadout_provider.dart';
-import 'package:valorant_thunai/screens/loadout/widgets/preset_preview_sheet.dart';
-import 'package:valorant_thunai/screens/loadout/preset_editor_screen.dart';
-import 'package:valorant_thunai/screens/loadout/preset_collection_screen.dart';
-import 'package:valorant_thunai/utils/preset_sharing.dart';
+import 'package:vthunai/models/loadout_preset.dart';
+import 'package:vthunai/providers/weapons_provider.dart';
+import 'package:vthunai/providers/preset_provider.dart';
+import 'package:vthunai/providers/skin_provider.dart';
+import 'package:vthunai/utils/weapon_asset_resolver.dart';
+import 'package:vthunai/common/funny_loading_view.dart';
+import 'package:vthunai/providers/auto_loadout_provider.dart';
+import 'package:vthunai/screens/loadout/widgets/preset_preview_sheet.dart';
+import 'package:vthunai/screens/loadout/preset_editor_screen.dart';
+import 'package:vthunai/screens/loadout/preset_collection_screen.dart';
+import 'package:vthunai/utils/preset_sharing.dart';
 import 'package:share_plus/share_plus.dart';
 
 class LoadoutPresetsScreen extends ConsumerStatefulWidget {

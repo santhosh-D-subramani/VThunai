@@ -2,24 +2,24 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:valorant_thunai/l10n/app_localizations.dart';
-import 'package:valorant_thunai/providers/auth_provider.dart';
-import 'package:valorant_thunai/providers/locale_provider.dart';
-import 'package:valorant_thunai/providers/version_provider.dart';
-import 'package:valorant_thunai/screens/auth/riot_login_screen.dart';
-import 'package:valorant_thunai/screens/home/notifications_screen.dart';
-import 'package:valorant_thunai/screens/hub/game_info/game_info_hub_screen.dart';
-import 'package:valorant_thunai/screens/settings/appearance_screen.dart';
-import 'package:valorant_thunai/screens/settings/cache_manager_screen.dart';
-import 'package:valorant_thunai/screens/settings/display_settings_screen.dart';
-import 'package:valorant_thunai/screens/settings/key_manager_screen.dart';
-import 'package:valorant_thunai/screens/settings/logs_screen.dart';
-import 'package:valorant_thunai/screens/settings/remote_config_screen.dart';
-import 'package:valorant_thunai/screens/settings/support_screen.dart';
-import 'package:valorant_thunai/services/logger_service.dart';
-import 'package:valorant_thunai/services/notification_service.dart';
-import 'package:valorant_thunai/services/remote_config_service.dart';
-import 'package:valorant_thunai/services/update_service.dart';
+import 'package:vthunai/l10n/app_localizations.dart';
+import 'package:vthunai/providers/auth_provider.dart';
+import 'package:vthunai/providers/locale_provider.dart';
+import 'package:vthunai/providers/version_provider.dart';
+import 'package:vthunai/screens/auth/riot_login_screen.dart';
+import 'package:vthunai/screens/home/notifications_screen.dart';
+import 'package:vthunai/screens/hub/game_info/game_info_hub_screen.dart';
+import 'package:vthunai/screens/settings/appearance_screen.dart';
+import 'package:vthunai/screens/settings/cache_manager_screen.dart';
+import 'package:vthunai/screens/settings/display_settings_screen.dart';
+import 'package:vthunai/screens/settings/key_manager_screen.dart';
+import 'package:vthunai/screens/settings/logs_screen.dart';
+import 'package:vthunai/screens/settings/remote_config_screen.dart';
+import 'package:vthunai/screens/settings/support_screen.dart';
+import 'package:vthunai/services/logger_service.dart';
+import 'package:vthunai/services/notification_service.dart';
+import 'package:vthunai/services/remote_config_service.dart';
+import 'package:vthunai/services/update_service.dart';
 
 class SettingsPage extends ConsumerStatefulWidget {
   const SettingsPage({super.key});
@@ -451,7 +451,7 @@ class _SettingsPageState extends ConsumerState<SettingsPage> {
       if (UpdateService.isUpdateEnabled)
         _SettingEntry(
           title: l10n.checkForUpdates,
-          subtitle: 'Check if a newer version of Valorant Thunai is available',
+          subtitle: 'Check if a newer version of VThunai is available',
           category: 'Content & Resources',
           icon: Icons.system_update_outlined,
           widget: ListTile(

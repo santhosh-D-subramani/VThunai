@@ -1,8 +1,8 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:valorant_thunai/services/valorant_api.dart';
-import 'package:valorant_thunai/services/logger_service.dart';
-import 'package:valorant_thunai/services/riot_auth_service.dart';
-import 'package:valorant_thunai/utils/match_stats_calculator.dart';
+import 'package:vthunai/services/valorant_api.dart';
+import 'package:vthunai/services/logger_service.dart';
+import 'package:vthunai/services/riot_auth_service.dart';
+import 'package:vthunai/utils/match_stats_calculator.dart';
 
 class CareerActStats {
   final String seasonId;

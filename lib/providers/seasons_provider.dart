@@ -1,5 +1,5 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:valorant_thunai/services/valorant_api.dart';
+import 'package:vthunai/services/valorant_api.dart';
 
 final seasonsProvider = FutureProvider<List<dynamic>>((ref) async {
   return ValorantApi.getSeasons();

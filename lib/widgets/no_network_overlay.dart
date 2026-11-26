@@ -3,9 +3,9 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:valorant_thunai/constants.dart';
-import 'package:valorant_thunai/services/connectivity_service.dart';
-import 'package:valorant_thunai/l10n/app_localizations.dart';
+import 'package:vthunai/constants.dart';
+import 'package:vthunai/services/connectivity_service.dart';
+import 'package:vthunai/l10n/app_localizations.dart';
 
 class NoNetworkOverlay extends ConsumerStatefulWidget {
   const NoNetworkOverlay({super.key});

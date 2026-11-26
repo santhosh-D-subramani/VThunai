@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:valorant_thunai/models/xmpp_models.dart';
-import 'package:valorant_thunai/providers/auth_provider.dart';
-import 'package:valorant_thunai/providers/xmpp_provider.dart';
-import 'package:valorant_thunai/providers/rank_goal_provider.dart';
-import 'package:valorant_thunai/screens/profile/rank_goal_screen.dart';
-import 'package:valorant_thunai/screens/profile/widgets/rank_goal_summary_card.dart';
-import 'package:valorant_thunai/screens/profile/contracts_screen.dart';
-import 'package:valorant_thunai/screens/profile/leaderboard_screen.dart';
-import 'package:valorant_thunai/screens/social/friends_screen.dart';
-import 'package:valorant_thunai/theme/app_theme.dart';
-import 'package:valorant_thunai/l10n/app_localizations.dart';
+import 'package:vthunai/models/xmpp_models.dart';
+import 'package:vthunai/providers/auth_provider.dart';
+import 'package:vthunai/providers/xmpp_provider.dart';
+import 'package:vthunai/providers/rank_goal_provider.dart';
+import 'package:vthunai/screens/profile/rank_goal_screen.dart';
+import 'package:vthunai/screens/profile/widgets/rank_goal_summary_card.dart';
+import 'package:vthunai/screens/profile/contracts_screen.dart';
+import 'package:vthunai/screens/profile/leaderboard_screen.dart';
+import 'package:vthunai/screens/social/friends_screen.dart';
+import 'package:vthunai/theme/app_theme.dart';
+import 'package:vthunai/l10n/app_localizations.dart';
 
 class HubPage extends ConsumerWidget {
   const HubPage({super.key});

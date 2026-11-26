@@ -1,4 +1,4 @@
-package com.santhoshDsubramani.valorant_thunai
+package com.santhoshDsubramani.vthunai
 
 import android.appwidget.AppWidgetManager
 import android.appwidget.AppWidgetProvider

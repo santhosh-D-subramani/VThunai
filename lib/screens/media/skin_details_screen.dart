@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:valorant_thunai/providers/skin_provider.dart';
-import 'package:valorant_thunai/screens/media/video_player_screen.dart';
-import 'package:valorant_thunai/l10n/app_localizations.dart';
+import 'package:vthunai/providers/skin_provider.dart';
+import 'package:vthunai/screens/media/video_player_screen.dart';
+import 'package:vthunai/l10n/app_localizations.dart';
 
 class SkinDetailsScreen extends ConsumerStatefulWidget {
   final SkinMetadata skin;

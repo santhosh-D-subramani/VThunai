@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:valorant_thunai/l10n/app_localizations.dart';
-import 'package:valorant_thunai/providers/profile_provider.dart';
+import 'package:vthunai/l10n/app_localizations.dart';
+import 'package:vthunai/providers/profile_provider.dart';
 
 class AccountXpCard extends StatelessWidget {
   final AccountXpSummary summary;

@@ -5,9 +5,9 @@ import 'package:http/http.dart' as http;
 
 import 'auth_provider.dart';
 
-import 'package:valorant_thunai/services/valorant_api.dart';
-import 'package:valorant_thunai/services/logger_service.dart';
-import 'package:valorant_thunai/services/xp_forecast_service.dart';
+import 'package:vthunai/services/valorant_api.dart';
+import 'package:vthunai/services/logger_service.dart';
+import 'package:vthunai/services/xp_forecast_service.dart';
 
 import 'skin_provider.dart';
 

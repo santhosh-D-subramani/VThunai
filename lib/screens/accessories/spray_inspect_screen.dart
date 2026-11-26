@@ -1,8 +1,8 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:valorant_thunai/l10n/app_localizations.dart';
-import 'package:valorant_thunai/utils/cache_managers.dart';
+import 'package:vthunai/l10n/app_localizations.dart';
+import 'package:vthunai/utils/cache_managers.dart';
 
 class SprayInspectScreen extends StatelessWidget {
   final Map<String, dynamic> spray;

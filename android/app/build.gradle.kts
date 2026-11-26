@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.santhoshDsubramani.valorant_thunai"
+    namespace = "com.santhoshDsubramani.vthunai"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -14,7 +14,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.santhoshDsubramani.valorant_thunai"
+        applicationId = "com.santhoshDsubramani.vthunai"
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode

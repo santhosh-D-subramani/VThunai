@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:valorant_thunai/constants.dart';
-import 'package:valorant_thunai/providers/auth_provider.dart';
-import 'package:valorant_thunai/screens/auth/riot_login_screen.dart';
-import 'package:valorant_thunai/screens/shop/daily_shop_screen.dart';
-import 'package:valorant_thunai/services/update_service.dart';
-import 'package:valorant_thunai/screens/home/notifications_screen.dart';
-import 'package:valorant_thunai/l10n/app_localizations.dart';
+import 'package:vthunai/constants.dart';
+import 'package:vthunai/providers/auth_provider.dart';
+import 'package:vthunai/screens/auth/riot_login_screen.dart';
+import 'package:vthunai/screens/shop/daily_shop_screen.dart';
+import 'package:vthunai/services/update_service.dart';
+import 'package:vthunai/screens/home/notifications_screen.dart';
+import 'package:vthunai/l10n/app_localizations.dart';
 
 class HomePage extends ConsumerWidget {
   const HomePage({super.key});

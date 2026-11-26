@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:valorant_thunai/models/rank_history_entry.dart';
-import 'package:valorant_thunai/providers/display_settings_provider.dart';
-import 'package:valorant_thunai/services/rank_history_service.dart';
-import 'package:valorant_thunai/services/logger_service.dart';
-import 'package:valorant_thunai/services/valorant_api.dart';
-import 'package:valorant_thunai/providers/auth_provider.dart';
-import 'package:valorant_thunai/utils/format_utils.dart';
-import 'package:valorant_thunai/l10n/app_localizations.dart';
+import 'package:vthunai/models/rank_history_entry.dart';
+import 'package:vthunai/providers/display_settings_provider.dart';
+import 'package:vthunai/services/rank_history_service.dart';
+import 'package:vthunai/services/logger_service.dart';
+import 'package:vthunai/services/valorant_api.dart';
+import 'package:vthunai/providers/auth_provider.dart';
+import 'package:vthunai/utils/format_utils.dart';
+import 'package:vthunai/l10n/app_localizations.dart';
 
 final rankHistoryProvider = FutureProvider.family<List<RankHistoryEntry>, String>((
   ref,

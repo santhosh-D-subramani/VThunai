@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:valorant_thunai/providers/display_settings_provider.dart';
-import 'package:valorant_thunai/providers/skin_provider.dart';
-import 'package:valorant_thunai/services/shop_history_service.dart';
-import 'package:valorant_thunai/screens/media/skin_details_screen.dart';
-import 'package:valorant_thunai/utils/format_utils.dart';
-import 'package:valorant_thunai/l10n/app_localizations.dart';
+import 'package:vthunai/providers/display_settings_provider.dart';
+import 'package:vthunai/providers/skin_provider.dart';
+import 'package:vthunai/services/shop_history_service.dart';
+import 'package:vthunai/screens/media/skin_details_screen.dart';
+import 'package:vthunai/utils/format_utils.dart';
+import 'package:vthunai/l10n/app_localizations.dart';
 
 class ShopHistoryScreen extends ConsumerWidget {
   final String puuid;

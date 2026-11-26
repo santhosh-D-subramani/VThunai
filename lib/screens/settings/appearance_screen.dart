@@ -3,10 +3,10 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:valorant_thunai/theme/models/theme_config.dart';
+import 'package:vthunai/theme/models/theme_config.dart';
 
-import 'package:valorant_thunai/theme/theme_notifier.dart';
-import 'package:valorant_thunai/l10n/app_localizations.dart';
+import 'package:vthunai/theme/theme_notifier.dart';
+import 'package:vthunai/l10n/app_localizations.dart';
 
 class ColorPreset {
   final String name;

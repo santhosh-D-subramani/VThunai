@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:valorant_thunai/utils/cache_managers.dart';
-import 'package:valorant_thunai/services/video_cache_manager.dart';
-import 'package:valorant_thunai/services/valorant_api.dart';
-import 'package:valorant_thunai/l10n/app_localizations.dart';
+import 'package:vthunai/utils/cache_managers.dart';
+import 'package:vthunai/services/video_cache_manager.dart';
+import 'package:vthunai/services/valorant_api.dart';
+import 'package:vthunai/l10n/app_localizations.dart';
 
 class CacheManagerPage extends ConsumerStatefulWidget {
   const CacheManagerPage({super.key});

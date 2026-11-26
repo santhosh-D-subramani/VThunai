@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:valorant_thunai/common/funny_loading_view.dart';
-import 'package:valorant_thunai/screens/bundles/bundle_detail_screen.dart';
-import 'package:valorant_thunai/providers/bundle_providers.dart';
+import 'package:vthunai/common/funny_loading_view.dart';
+import 'package:vthunai/screens/bundles/bundle_detail_screen.dart';
+import 'package:vthunai/providers/bundle_providers.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:valorant_thunai/utils/cache_managers.dart';
-import 'package:valorant_thunai/l10n/app_localizations.dart';
+import 'package:vthunai/utils/cache_managers.dart';
+import 'package:vthunai/l10n/app_localizations.dart';
 
 class AllPage extends ConsumerWidget {
   const AllPage({super.key});

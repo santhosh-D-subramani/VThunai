@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:valorant_thunai/screens/settings/remote_config_screen.dart';
-import 'package:valorant_thunai/services/valorant_api.dart';
+import 'package:vthunai/screens/settings/remote_config_screen.dart';
+import 'package:vthunai/services/valorant_api.dart';
 
 class KeyManagerScreen extends StatefulWidget {
   const KeyManagerScreen({super.key});

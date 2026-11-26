@@ -3,10 +3,10 @@ import 'dart:convert';
 
 import 'package:http/http.dart' as http;
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:valorant_thunai/providers/auth_provider.dart';
-import 'package:valorant_thunai/services/valorant_api.dart';
-import 'package:valorant_thunai/services/logger_service.dart';
-import 'package:valorant_thunai/services/rank_history_service.dart';
+import 'package:vthunai/providers/auth_provider.dart';
+import 'package:vthunai/services/valorant_api.dart';
+import 'package:vthunai/services/logger_service.dart';
+import 'package:vthunai/services/rank_history_service.dart';
 
 final competitiveTiersProvider = FutureProvider<Map<int, dynamic>>((ref) async {
   final tiersData = await ValorantApi.getCompetitiveTiers();

@@ -2,11 +2,11 @@ import 'dart:convert';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:valorant_thunai/models/xmpp_models.dart';
-import 'package:valorant_thunai/services/riot_auth_service.dart';
-import 'package:valorant_thunai/services/riot_xmpp_service.dart';
-import 'package:valorant_thunai/services/valorant_api.dart';
-import 'package:valorant_thunai/services/logger_service.dart';
+import 'package:vthunai/models/xmpp_models.dart';
+import 'package:vthunai/services/riot_auth_service.dart';
+import 'package:vthunai/services/riot_xmpp_service.dart';
+import 'package:vthunai/services/valorant_api.dart';
+import 'package:vthunai/services/logger_service.dart';
 
 import 'auth_provider.dart';
 

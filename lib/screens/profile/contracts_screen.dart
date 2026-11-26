@@ -4,14 +4,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:valorant_thunai/common/funny_loading_view.dart';
-import 'package:valorant_thunai/providers/contracts_provider.dart';
-import 'package:valorant_thunai/providers/display_settings_provider.dart';
-import 'package:valorant_thunai/services/xp_forecast_service.dart';
-import 'package:valorant_thunai/screens/profile/agent_gear_screen.dart';
-import 'package:valorant_thunai/screens/profile/battlepass_screen.dart';
-import 'package:valorant_thunai/utils/format_utils.dart';
-import 'package:valorant_thunai/l10n/app_localizations.dart';
+import 'package:vthunai/common/funny_loading_view.dart';
+import 'package:vthunai/providers/contracts_provider.dart';
+import 'package:vthunai/providers/display_settings_provider.dart';
+import 'package:vthunai/services/xp_forecast_service.dart';
+import 'package:vthunai/screens/profile/agent_gear_screen.dart';
+import 'package:vthunai/screens/profile/battlepass_screen.dart';
+import 'package:vthunai/utils/format_utils.dart';
+import 'package:vthunai/l10n/app_localizations.dart';
 
 class ContractsPage extends ConsumerStatefulWidget {
   const ContractsPage({super.key});

@@ -1,9 +1,9 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:valorant_thunai/providers/auth_provider.dart';
-import 'package:valorant_thunai/providers/contracts_provider.dart';
-import 'package:valorant_thunai/providers/skin_provider.dart';
-import 'package:valorant_thunai/services/logger_service.dart';
-import 'package:valorant_thunai/services/valorant_api.dart';
+import 'package:vthunai/providers/auth_provider.dart';
+import 'package:vthunai/providers/contracts_provider.dart';
+import 'package:vthunai/providers/skin_provider.dart';
+import 'package:vthunai/services/logger_service.dart';
+import 'package:vthunai/services/valorant_api.dart';
 
 class AgentGearReward {
   final int tier;

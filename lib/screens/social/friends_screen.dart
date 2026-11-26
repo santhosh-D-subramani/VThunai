@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:valorant_thunai/common/funny_loading_view.dart';
+import 'package:vthunai/common/funny_loading_view.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:valorant_thunai/models/xmpp_models.dart';
-import 'package:valorant_thunai/providers/auth_provider.dart';
-import 'package:valorant_thunai/providers/friends_provider.dart';
-import 'package:valorant_thunai/providers/profile_provider.dart';
-import 'package:valorant_thunai/providers/xmpp_provider.dart';
-import 'package:valorant_thunai/services/friend_name_cache_service.dart';
-import 'package:valorant_thunai/screens/social/social_chat_screen.dart';
-import 'package:valorant_thunai/l10n/app_localizations.dart';
+import 'package:vthunai/models/xmpp_models.dart';
+import 'package:vthunai/providers/auth_provider.dart';
+import 'package:vthunai/providers/friends_provider.dart';
+import 'package:vthunai/providers/profile_provider.dart';
+import 'package:vthunai/providers/xmpp_provider.dart';
+import 'package:vthunai/services/friend_name_cache_service.dart';
+import 'package:vthunai/screens/social/social_chat_screen.dart';
+import 'package:vthunai/l10n/app_localizations.dart';
 
 const List<String> _fallbackAgentIds = [
   'add64435-ae81-439b-1615-51d6506c47e6',

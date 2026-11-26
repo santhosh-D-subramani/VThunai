@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:valorant_thunai/providers/locale_provider.dart';
-import 'package:valorant_thunai/services/logger_service.dart';
-import 'package:valorant_thunai/services/remote_config_service.dart';
-import 'package:valorant_thunai/services/valorant_api.dart';
-import 'package:valorant_thunai/services/widget_sync_service.dart';
-import 'package:valorant_thunai/theme/theme_notifier.dart';
-import 'package:valorant_thunai/valorant_thunai.dart';
+import 'package:vthunai/providers/locale_provider.dart';
+import 'package:vthunai/services/logger_service.dart';
+import 'package:vthunai/services/remote_config_service.dart';
+import 'package:vthunai/services/valorant_api.dart';
+import 'package:vthunai/services/widget_sync_service.dart';
+import 'package:vthunai/theme/theme_notifier.dart';
+import 'package:vthunai/vthunai.dart';
 
 late final SharedPreferences prefs;
 
@@ -39,7 +39,7 @@ void main() async {
         themeProvider.overrideWith((ref) => ThemeNotifier(savedTheme)),
         localeProvider.overrideWith((ref) => LocaleNotifier(savedLocale)),
       ],
-      child: const ValorantThunai(),
+      child: const VThunai(),
     ),
   );
 }

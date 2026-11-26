@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:valorant_thunai/l10n/app_localizations.dart';
+import 'package:vthunai/l10n/app_localizations.dart';
 
 class BlockedScreen extends StatelessWidget {
   final String title;

@@ -2,15 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:valorant_thunai/services/remote_config_service.dart';
+import 'package:vthunai/services/remote_config_service.dart';
 
 import 'logger_service.dart';
 
-import 'package:valorant_thunai/l10n/app_localizations.dart';
+import 'package:vthunai/l10n/app_localizations.dart';
 
 class UpdateService {
   static const String playStoreUrl =
-      'https://play.google.com/store/apps/details?id=com.santhoshDsubramani.valorant_thunai';
+      'https://play.google.com/store/apps/details?id=com.santhoshDsubramani.vthunai';
   static const String developerUrl =
       'https://play.google.com/store/apps/dev?id=6310299424273414832';
 
@@ -185,7 +185,7 @@ class UpdateService {
                       ? (l10n?.criticalUpdateRequiredBody(newVersion) ??
                             'A critical update (v$newVersion) is required to continue using the app. This fix addresses essential Riot API changes.')
                       : (l10n?.updateAvailableBody(newVersion) ??
-                            'A new version (v$newVersion) of Valorant Thunai is ready! Update now for new features and bug fixes.')),
+                            'A new version (v$newVersion) of VThunai is ready! Update now for new features and bug fixes.')),
           ),
           actions: [
             if (!isForce)

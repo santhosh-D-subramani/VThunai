@@ -3,16 +3,16 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:valorant_thunai/providers/profile_provider.dart';
-import 'package:valorant_thunai/providers/auth_provider.dart';
-import 'package:valorant_thunai/providers/display_settings_provider.dart';
-import 'package:valorant_thunai/providers/rank_goal_provider.dart';
-import 'package:valorant_thunai/screens/profile/widgets/rank_history_card.dart';
+import 'package:vthunai/providers/profile_provider.dart';
+import 'package:vthunai/providers/auth_provider.dart';
+import 'package:vthunai/providers/display_settings_provider.dart';
+import 'package:vthunai/providers/rank_goal_provider.dart';
+import 'package:vthunai/screens/profile/widgets/rank_history_card.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:valorant_thunai/utils/cache_managers.dart';
-import 'package:valorant_thunai/utils/format_utils.dart';
-import 'package:valorant_thunai/utils/rank_goal_estimator.dart';
-import 'package:valorant_thunai/l10n/app_localizations.dart';
+import 'package:vthunai/utils/cache_managers.dart';
+import 'package:vthunai/utils/format_utils.dart';
+import 'package:vthunai/utils/rank_goal_estimator.dart';
+import 'package:vthunai/l10n/app_localizations.dart';
 
 class RankGoalScreen extends ConsumerStatefulWidget {
   const RankGoalScreen({super.key});

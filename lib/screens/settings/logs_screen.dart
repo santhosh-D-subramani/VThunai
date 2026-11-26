@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:valorant_thunai/services/logger_service.dart';
-import 'package:valorant_thunai/l10n/app_localizations.dart';
+import 'package:vthunai/services/logger_service.dart';
+import 'package:vthunai/l10n/app_localizations.dart';
 
 class LogsScreen extends StatefulWidget {
   const LogsScreen({super.key});

@@ -3,9 +3,9 @@ import 'dart:convert';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:http/http.dart' as http;
-import 'package:valorant_thunai/providers/auth_provider.dart';
-import 'package:valorant_thunai/services/valorant_api.dart';
-import 'package:valorant_thunai/services/logger_service.dart';
+import 'package:vthunai/providers/auth_provider.dart';
+import 'package:vthunai/services/valorant_api.dart';
+import 'package:vthunai/services/logger_service.dart';
 
 const List<String> leaderboardShards = ['na', 'eu', 'ap', 'kr', 'pbe'];
 

@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:valorant_thunai/l10n/app_localizations.dart';
+import 'package:vthunai/l10n/app_localizations.dart';
 
 class FunnyLoadingView extends StatefulWidget {
   final Color? color;

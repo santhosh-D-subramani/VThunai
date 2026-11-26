@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:webview_flutter/webview_flutter.dart';
-import 'package:valorant_thunai/common/funny_loading_view.dart';
-import 'package:valorant_thunai/l10n/app_localizations.dart';
-import 'package:valorant_thunai/providers/auth_provider.dart';
-import 'package:valorant_thunai/services/logger_service.dart';
-import 'package:valorant_thunai/services/riot_auth_service.dart';
+import 'package:vthunai/common/funny_loading_view.dart';
+import 'package:vthunai/l10n/app_localizations.dart';
+import 'package:vthunai/providers/auth_provider.dart';
+import 'package:vthunai/services/logger_service.dart';
+import 'package:vthunai/services/riot_auth_service.dart';
 
 class RiotLoginScreen extends ConsumerStatefulWidget {
   const RiotLoginScreen({super.key});

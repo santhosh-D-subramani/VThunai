@@ -21,7 +21,7 @@ class RemoteConfigService extends ChangeNotifier {
   factory RemoteConfigService() => instance;
 
   static const String defaultUrl =
-      'https://raw.githubusercontent.com/santhosh-D-subramani/Valorant-Thunai/refs/heads/main/config/remote_config.json';
+      'https://raw.githubusercontent.com/santhosh-D-subramani/VThunai/refs/heads/main/config/remote_config.json';
 
   static const String prefUrlKey = 'github_remote_config_url';
   static const String prefCacheKey = 'github_remote_config_cache';

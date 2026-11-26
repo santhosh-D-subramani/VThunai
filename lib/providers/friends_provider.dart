@@ -1,8 +1,8 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:valorant_thunai/services/riot_local_service.dart';
-import 'package:valorant_thunai/services/logger_service.dart';
-import 'package:valorant_thunai/services/valorant_api.dart';
-import 'package:valorant_thunai/services/friend_name_cache_service.dart';
+import 'package:vthunai/services/riot_local_service.dart';
+import 'package:vthunai/services/logger_service.dart';
+import 'package:vthunai/services/valorant_api.dart';
+import 'package:vthunai/services/friend_name_cache_service.dart';
 
 import 'auth_provider.dart';
 

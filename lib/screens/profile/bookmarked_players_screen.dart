@@ -1,7 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:valorant_thunai/services/player_bookmark_service.dart';
-import 'package:valorant_thunai/l10n/app_localizations.dart';
+import 'package:vthunai/services/player_bookmark_service.dart';
+import 'package:vthunai/l10n/app_localizations.dart';
 
 class BookmarkedPlayersScreen extends StatefulWidget {
   final void Function(BookmarkedPlayer player) onSelect;

@@ -4,26 +4,26 @@ import 'package:dynamic_color/dynamic_color.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:home_widget/home_widget.dart';
-import 'package:valorant_thunai/router/zen_router.dart';
-import 'package:valorant_thunai/theme/models/theme_config.dart';
-import 'package:valorant_thunai/theme/app_theme.dart';
-import 'package:valorant_thunai/theme/theme_notifier.dart';
-import 'package:valorant_thunai/constants.dart';
-import 'package:valorant_thunai/services/logger_service.dart';
+import 'package:vthunai/router/zen_router.dart';
+import 'package:vthunai/theme/models/theme_config.dart';
+import 'package:vthunai/theme/app_theme.dart';
+import 'package:vthunai/theme/theme_notifier.dart';
+import 'package:vthunai/constants.dart';
+import 'package:vthunai/services/logger_service.dart';
 
-import 'package:valorant_thunai/providers/locale_provider.dart';
+import 'package:vthunai/providers/locale_provider.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
 import 'l10n/app_localizations.dart';
 
-class ValorantThunai extends ConsumerStatefulWidget {
-  const ValorantThunai({super.key});
+class VThunai extends ConsumerStatefulWidget {
+  const VThunai({super.key});
 
   @override
-  ConsumerState<ValorantThunai> createState() => _ValorantThunaiState();
+  ConsumerState<VThunai> createState() => _VThunaiState();
 }
 
-class _ValorantThunaiState extends ConsumerState<ValorantThunai> {
+class _VThunaiState extends ConsumerState<VThunai> {
   StreamSubscription<Uri?>? _widgetClickSub;
 
   @override

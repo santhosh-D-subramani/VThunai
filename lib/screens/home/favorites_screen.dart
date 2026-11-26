@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:valorant_thunai/providers/display_settings_provider.dart';
-import 'package:valorant_thunai/providers/skin_provider.dart';
-import 'package:valorant_thunai/screens/media/skin_details_screen.dart';
-import 'package:valorant_thunai/screens/accessories/accessory_inspector.dart';
-import 'package:valorant_thunai/screens/bundles/bundle_detail_screen.dart';
-import 'package:valorant_thunai/utils/format_utils.dart';
-import 'package:valorant_thunai/l10n/app_localizations.dart';
+import 'package:vthunai/providers/display_settings_provider.dart';
+import 'package:vthunai/providers/skin_provider.dart';
+import 'package:vthunai/screens/media/skin_details_screen.dart';
+import 'package:vthunai/screens/accessories/accessory_inspector.dart';
+import 'package:vthunai/screens/bundles/bundle_detail_screen.dart';
+import 'package:vthunai/utils/format_utils.dart';
+import 'package:vthunai/l10n/app_localizations.dart';
 
 class FavoritesScreen extends ConsumerWidget {
   const FavoritesScreen({super.key});

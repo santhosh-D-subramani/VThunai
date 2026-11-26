@@ -1,6 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:valorant_thunai/models/rank_goal.dart';
+import 'package:vthunai/models/rank_goal.dart';
 
 class RankGoalPrefsKeys {
   RankGoalPrefsKeys._();

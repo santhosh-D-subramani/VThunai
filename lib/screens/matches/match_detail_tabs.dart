@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:valorant_thunai/l10n/app_localizations.dart';
-import 'package:valorant_thunai/utils/match_stats_calculator.dart';
-import 'package:valorant_thunai/utils/format_utils.dart';
-import 'package:valorant_thunai/providers/display_settings_provider.dart';
-import 'package:valorant_thunai/screens/matches/match_round_detail_screen.dart';
+import 'package:vthunai/l10n/app_localizations.dart';
+import 'package:vthunai/utils/match_stats_calculator.dart';
+import 'package:vthunai/utils/format_utils.dart';
+import 'package:vthunai/providers/display_settings_provider.dart';
+import 'package:vthunai/screens/matches/match_round_detail_screen.dart';
 
 enum ScoreboardSortMetric { acs, adr, kast, kills, deaths }
 

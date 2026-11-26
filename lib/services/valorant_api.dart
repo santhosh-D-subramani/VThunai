@@ -7,7 +7,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import 'riot_auth_service.dart';
 
-import 'package:valorant_thunai/providers/auth_provider.dart';
+import 'package:vthunai/providers/auth_provider.dart';
 
 import 'logger_service.dart';
 import 'connectivity_service.dart';

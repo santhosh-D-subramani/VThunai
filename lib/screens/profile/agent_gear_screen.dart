@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:valorant_thunai/common/funny_loading_view.dart';
-import 'package:valorant_thunai/providers/agent_gear_provider.dart';
-import 'package:valorant_thunai/providers/display_settings_provider.dart';
-import 'package:valorant_thunai/utils/format_utils.dart';
-import 'package:valorant_thunai/l10n/app_localizations.dart';
+import 'package:vthunai/common/funny_loading_view.dart';
+import 'package:vthunai/providers/agent_gear_provider.dart';
+import 'package:vthunai/providers/display_settings_provider.dart';
+import 'package:vthunai/utils/format_utils.dart';
+import 'package:vthunai/l10n/app_localizations.dart';
 
 class AgentGearScreen extends ConsumerWidget {
   const AgentGearScreen({super.key});

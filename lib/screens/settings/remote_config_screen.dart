@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:valorant_thunai/providers/display_settings_provider.dart';
-import 'package:valorant_thunai/services/remote_config_service.dart';
-import 'package:valorant_thunai/utils/format_utils.dart';
+import 'package:vthunai/providers/display_settings_provider.dart';
+import 'package:vthunai/services/remote_config_service.dart';
+import 'package:vthunai/utils/format_utils.dart';
 
 class RemoteConfigScreen extends ConsumerStatefulWidget {
   const RemoteConfigScreen({super.key});

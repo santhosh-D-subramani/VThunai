@@ -4,13 +4,13 @@ import 'dart:io';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_cache_manager/flutter_cache_manager.dart';
 import 'package:home_widget/home_widget.dart';
-import 'package:valorant_thunai/services/logger_service.dart';
+import 'package:vthunai/services/logger_service.dart';
 
 class WidgetSyncService {
   static const String appGroupId =
-      'group.com.santhoshDsubramani.valorantThunai';
+      'group.com.santhoshDsubramani.vthunai';
   static const String androidWidgetProvider =
-      'com.santhoshDsubramani.valorant_thunai.StoreWidgetProvider';
+      'com.santhoshDsubramani.vthunai.StoreWidgetProvider';
   static const String iosWidgetName = 'StoreWidget';
 
   static Future<void> initialize() async {

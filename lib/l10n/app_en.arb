@@ -291,7 +291,7 @@
   "@connectionLostTitle": {
     "description": "Offline overlay title"
   },
-  "connectionLostDescription": "You are currently offline. Please restore your connection to continue using Valorant Thunai.",
+  "connectionLostDescription": "You are currently offline. Please restore your connection to continue using VThunai.",
   "@connectionLostDescription": {
     "description": "Offline overlay description"
   },
@@ -367,11 +367,11 @@
   "@shareLogsWithDeveloper": {
     "description": "Button to share diagnostic logs"
   },
-  "shareLogsSubject": "Valorant Thunai Diagnostic Logs",
+  "shareLogsSubject": "VThunai Diagnostic Logs",
   "@shareLogsSubject": {
     "description": "Subject line when sharing logs"
   },
-  "thankYouUsingApp": "Thank you for using Valorant Thunai!",
+  "thankYouUsingApp": "Thank you for using VThunai!",
   "@thankYouUsingApp": {
     "description": "Footer message"
   },
@@ -659,7 +659,7 @@
   "@dailyShopTitle": {
     "description": "Daily shop title"
   },
-  "welcomeToValShop": "Welcome to Valorant Thunai",
+  "welcomeToValShop": "Welcome to VThunai",
   "@welcomeToValShop": {
     "description": "Welcome title"
   },
@@ -799,7 +799,7 @@
   "@developerModeLockedSnackbar": {
     "description": "Snackbar message"
   },
-  "rateValShopTitle": "Rate Valorant Thunai",
+  "rateValShopTitle": "Rate VThunai",
   "@rateValShopTitle": {
     "description": "Settings item title"
   },
@@ -2153,7 +2153,7 @@
       }
     }
   },
-  "updateAvailableBody": "A new version (v{version}) of Valorant Thunai is ready! Update now for new features and bug fixes.",
+  "updateAvailableBody": "A new version (v{version}) of VThunai is ready! Update now for new features and bug fixes.",
   "@updateAvailableBody": {
     "description": "Normal update dialog body",
     "placeholders": {

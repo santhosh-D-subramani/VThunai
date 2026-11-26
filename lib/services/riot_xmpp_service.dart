@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:valorant_thunai/models/xmpp_models.dart';
+import 'package:vthunai/models/xmpp_models.dart';
 
 import 'logger_service.dart';
 

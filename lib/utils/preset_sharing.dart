@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:valorant_thunai/models/loadout_preset.dart';
+import 'package:vthunai/models/loadout_preset.dart';
 
 class PresetSharing {
   static const String _prefix = 'VALSHOP-PRESET-';

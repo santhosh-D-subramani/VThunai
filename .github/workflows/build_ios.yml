@@ -76,13 +76,13 @@ jobs:
           rm -rf Payload
           mkdir Payload
           cp -R build/ios/iphoneos/Runner.app Payload/Runner.app
-          rm -f ValorantThunai.ipa
-          zip -r ValorantThunai.ipa Payload
+          rm -f VThunai.ipa
+          zip -r VThunai.ipa Payload
           echo "IPA created:"
-          ls -lh ValorantThunai.ipa
+          ls -lh VThunai.ipa
 
       - name: Upload IPA Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: ValorantThunai_ios
-          path: ValorantThunai.ipa
+          name: VThunai_ios
+          path: VThunai.ipa

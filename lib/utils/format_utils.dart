@@ -1,4 +1,4 @@
-import 'package:valorant_thunai/providers/display_settings_provider.dart';
+import 'package:vthunai/providers/display_settings_provider.dart';
 
 class FormatUtils {
   static const Map<String, String> _unlistedAgentWeaponSlots = {

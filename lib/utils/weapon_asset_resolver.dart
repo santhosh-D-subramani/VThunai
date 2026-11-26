@@ -1,4 +1,4 @@
-import 'package:valorant_thunai/providers/skin_provider.dart';
+import 'package:vthunai/providers/skin_provider.dart';
 
 class WeaponAssetResolver {
   static String extractSkinDisplayIcon(dynamic skinMap) {

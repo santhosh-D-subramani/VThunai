@@ -1,8 +1,8 @@
 import 'dart:convert';
 
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:valorant_thunai/models/rank_history_entry.dart';
-import 'package:valorant_thunai/services/logger_service.dart';
+import 'package:vthunai/models/rank_history_entry.dart';
+import 'package:vthunai/services/logger_service.dart';
 
 class RankHistoryService {
   RankHistoryService._();

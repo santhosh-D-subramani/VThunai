@@ -4,10 +4,10 @@ import 'dart:math' as math;
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:valorant_thunai/models/loadout_preset.dart';
-import 'package:valorant_thunai/providers/loadout_provider.dart';
-import 'package:valorant_thunai/providers/weapons_provider.dart';
-import 'package:valorant_thunai/services/logger_service.dart';
+import 'package:vthunai/models/loadout_preset.dart';
+import 'package:vthunai/providers/loadout_provider.dart';
+import 'package:vthunai/providers/weapons_provider.dart';
+import 'package:vthunai/services/logger_service.dart';
 
 final presetsProvider =
     AsyncNotifierProvider<LoadoutPresetsNotifier, List<LoadoutPreset>>(

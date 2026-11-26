@@ -1,16 +1,16 @@
 import 'dart:async';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:valorant_thunai/providers/navigation_provider.dart';
-import 'package:valorant_thunai/models/match_models.dart';
-import 'package:valorant_thunai/providers/auth_provider.dart';
-import 'package:valorant_thunai/services/valorant_api.dart';
-import 'package:valorant_thunai/services/logger_service.dart';
-import 'package:valorant_thunai/providers/player_match_stats_provider.dart';
-import 'package:valorant_thunai/providers/auto_loadout_provider.dart';
+import 'package:vthunai/providers/navigation_provider.dart';
+import 'package:vthunai/models/match_models.dart';
+import 'package:vthunai/providers/auth_provider.dart';
+import 'package:vthunai/services/valorant_api.dart';
+import 'package:vthunai/services/logger_service.dart';
+import 'package:vthunai/providers/player_match_stats_provider.dart';
+import 'package:vthunai/providers/auto_loadout_provider.dart';
 
-export 'package:valorant_thunai/models/match_models.dart';
-export 'package:valorant_thunai/providers/player_match_stats_provider.dart';
+export 'package:vthunai/models/match_models.dart';
+export 'package:vthunai/providers/player_match_stats_provider.dart';
 
 class PartyMember {
   final String puuid;

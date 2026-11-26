@@ -275,7 +275,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get connectionLostDescription =>
-      'You are currently offline. Please restore your connection to continue using Valorant Thunai.';
+      'You are currently offline. Please restore your connection to continue using VThunai.';
 
   @override
   String get retryButton => 'RETRY';
@@ -339,10 +339,10 @@ class AppLocalizationsEn extends AppLocalizations {
   String get shareLogsWithDeveloper => 'Share Logs with Developer';
 
   @override
-  String get shareLogsSubject => 'Valorant Thunai Diagnostic Logs';
+  String get shareLogsSubject => 'VThunai Diagnostic Logs';
 
   @override
-  String get thankYouUsingApp => 'Thank you for using Valorant Thunai!';
+  String get thankYouUsingApp => 'Thank you for using VThunai!';
 
   @override
   String get systemLogsTitle => 'System Logs';
@@ -564,7 +564,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get dailyShopTitle => 'Daily Shop';
 
   @override
-  String get welcomeToValShop => 'Welcome to Valorant Thunai';
+  String get welcomeToValShop => 'Welcome to VThunai';
 
   @override
   String get loginToViewOffers => 'Login to view your daily offers';
@@ -666,7 +666,7 @@ class AppLocalizationsEn extends AppLocalizations {
       'Developer mode locked & bypass disabled.';
 
   @override
-  String get rateValShopTitle => 'Rate Valorant Thunai';
+  String get rateValShopTitle => 'Rate VThunai';
 
   @override
   String get rateValShopSubtitle => 'Show some love on the Play Store';
@@ -1585,7 +1585,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String updateAvailableBody(String version) {
-    return 'A new version (v$version) of Valorant Thunai is ready! Update now for new features and bug fixes.';
+    return 'A new version (v$version) of VThunai is ready! Update now for new features and bug fixes.';
   }
 
   @override

@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:valorant_thunai/services/logger_service.dart';
+import 'package:vthunai/services/logger_service.dart';
 
 class XpSnapshot {
   final DateTime timestamp;

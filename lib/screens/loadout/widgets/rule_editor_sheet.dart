@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:valorant_thunai/models/auto_loadout_rule.dart';
-import 'package:valorant_thunai/models/loadout_preset.dart';
-import 'package:valorant_thunai/providers/auto_loadout_provider.dart';
-import 'package:valorant_thunai/providers/profile_provider.dart';
-import 'package:valorant_thunai/screens/loadout/widgets/preset_preview_sheet.dart';
-import 'package:valorant_thunai/common/funny_loading_view.dart';
+import 'package:vthunai/models/auto_loadout_rule.dart';
+import 'package:vthunai/models/loadout_preset.dart';
+import 'package:vthunai/providers/auto_loadout_provider.dart';
+import 'package:vthunai/providers/profile_provider.dart';
+import 'package:vthunai/screens/loadout/widgets/preset_preview_sheet.dart';
+import 'package:vthunai/common/funny_loading_view.dart';
 
 class RuleEditorSheet extends ConsumerStatefulWidget {
   final AutoLoadoutTriggerType triggerType;

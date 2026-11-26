@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:valorant_thunai/common/funny_loading_view.dart';
-import 'package:valorant_thunai/providers/auth_provider.dart';
-import 'package:valorant_thunai/providers/bundle_providers.dart';
-import 'package:valorant_thunai/providers/display_settings_provider.dart';
-import 'package:valorant_thunai/providers/loadout_provider.dart';
-import 'package:valorant_thunai/providers/skin_provider.dart';
-import 'package:valorant_thunai/screens/media/skin_details_screen.dart';
-import 'package:valorant_thunai/screens/accessories/accessory_inspector.dart';
+import 'package:vthunai/common/funny_loading_view.dart';
+import 'package:vthunai/providers/auth_provider.dart';
+import 'package:vthunai/providers/bundle_providers.dart';
+import 'package:vthunai/providers/display_settings_provider.dart';
+import 'package:vthunai/providers/loadout_provider.dart';
+import 'package:vthunai/providers/skin_provider.dart';
+import 'package:vthunai/screens/media/skin_details_screen.dart';
+import 'package:vthunai/screens/accessories/accessory_inspector.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:valorant_thunai/utils/cache_managers.dart';
-import 'package:valorant_thunai/utils/format_utils.dart';
-import 'package:valorant_thunai/l10n/app_localizations.dart';
+import 'package:vthunai/utils/cache_managers.dart';
+import 'package:vthunai/utils/format_utils.dart';
+import 'package:vthunai/l10n/app_localizations.dart';
 
 class ResolvedBundleItem {
   final String name;

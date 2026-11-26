@@ -3,17 +3,17 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:valorant_thunai/widgets/wavy_linear_progress_indicator.dart';
+import 'package:vthunai/widgets/wavy_linear_progress_indicator.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:valorant_thunai/common/funny_loading_view.dart';
-import 'package:valorant_thunai/screens/profile/player_search_screen.dart';
-import 'package:valorant_thunai/providers/party_provider.dart';
-import 'package:valorant_thunai/providers/profile_provider.dart';
-import 'package:valorant_thunai/providers/auth_provider.dart';
-import 'package:valorant_thunai/providers/auto_loadout_provider.dart';
-import 'package:valorant_thunai/providers/friends_provider.dart';
-import 'package:valorant_thunai/utils/cache_managers.dart';
-import 'package:valorant_thunai/l10n/app_localizations.dart';
+import 'package:vthunai/common/funny_loading_view.dart';
+import 'package:vthunai/screens/profile/player_search_screen.dart';
+import 'package:vthunai/providers/party_provider.dart';
+import 'package:vthunai/providers/profile_provider.dart';
+import 'package:vthunai/providers/auth_provider.dart';
+import 'package:vthunai/providers/auto_loadout_provider.dart';
+import 'package:vthunai/providers/friends_provider.dart';
+import 'package:vthunai/utils/cache_managers.dart';
+import 'package:vthunai/l10n/app_localizations.dart';
 
 class PartyPage extends ConsumerStatefulWidget {
   final bool gameViewOnly;

@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:valorant_thunai/common/funny_loading_view.dart';
-import 'package:valorant_thunai/providers/battlepass_provider.dart';
-import 'package:valorant_thunai/l10n/app_localizations.dart';
+import 'package:vthunai/common/funny_loading_view.dart';
+import 'package:vthunai/providers/battlepass_provider.dart';
+import 'package:vthunai/l10n/app_localizations.dart';
 
 class BattlepassScreen extends ConsumerWidget {
   const BattlepassScreen({super.key});

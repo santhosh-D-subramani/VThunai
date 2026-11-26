@@ -1,5 +1,5 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:valorant_thunai/services/skin_wishlist_service.dart';
+import 'package:vthunai/services/skin_wishlist_service.dart';
 
 final skinWishlistProvider =
     NotifierProvider<SkinWishlistNotifier, Set<String>>(() {

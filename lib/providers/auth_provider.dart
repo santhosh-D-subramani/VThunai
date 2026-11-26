@@ -5,11 +5,11 @@ import 'dart:io' show Platform;
 import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:valorant_thunai/services/riot_auth_service.dart';
-import 'package:valorant_thunai/services/valorant_api.dart';
-import 'package:valorant_thunai/services/connectivity_service.dart';
-import 'package:valorant_thunai/services/logger_service.dart';
-import 'package:valorant_thunai/services/widget_sync_service.dart';
+import 'package:vthunai/services/riot_auth_service.dart';
+import 'package:vthunai/services/valorant_api.dart';
+import 'package:vthunai/services/connectivity_service.dart';
+import 'package:vthunai/services/logger_service.dart';
+import 'package:vthunai/services/widget_sync_service.dart';
 
 class AuthState {
   final List<RiotUser> allUsers;

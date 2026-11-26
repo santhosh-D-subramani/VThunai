@@ -1,6 +1,6 @@
 import 'dart:math' as math;
 
-import 'package:valorant_thunai/models/rank_history_entry.dart';
+import 'package:vthunai/models/rank_history_entry.dart';
 
 enum RankGoalTrendStatus { notEnoughData, goalReached, trendingAway, onTrack }
 

@@ -3,8 +3,8 @@ import 'dart:convert';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:valorant_thunai/models/favorite_item.dart';
-import 'package:valorant_thunai/services/logger_service.dart';
+import 'package:vthunai/models/favorite_item.dart';
+import 'package:vthunai/services/logger_service.dart';
 
 class SkinChroma {
   final String uuid;

@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:valorant_thunai/providers/loadout_provider.dart';
-import 'package:valorant_thunai/providers/weapons_provider.dart';
-import 'package:valorant_thunai/providers/auth_provider.dart';
+import 'package:vthunai/providers/loadout_provider.dart';
+import 'package:vthunai/providers/weapons_provider.dart';
+import 'package:vthunai/providers/auth_provider.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:valorant_thunai/utils/cache_managers.dart';
-import 'package:valorant_thunai/common/funny_loading_view.dart';
+import 'package:vthunai/utils/cache_managers.dart';
+import 'package:vthunai/common/funny_loading_view.dart';
 
 import 'dart:math' as math;
 
-import 'package:valorant_thunai/screens/loadout/weapons_list_screen.dart';
-import 'package:valorant_thunai/screens/loadout/item_selection_screen.dart';
-import 'package:valorant_thunai/screens/loadout/loadout_presets_screen.dart';
-import 'package:valorant_thunai/l10n/app_localizations.dart';
+import 'package:vthunai/screens/loadout/weapons_list_screen.dart';
+import 'package:vthunai/screens/loadout/item_selection_screen.dart';
+import 'package:vthunai/screens/loadout/loadout_presets_screen.dart';
+import 'package:vthunai/l10n/app_localizations.dart';
 
 class LoadoutMainScreen extends ConsumerStatefulWidget {
   const LoadoutMainScreen({super.key});

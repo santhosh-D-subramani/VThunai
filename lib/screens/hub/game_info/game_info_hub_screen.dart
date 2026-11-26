@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:valorant_thunai/l10n/app_localizations.dart';
-import 'package:valorant_thunai/screens/hub/game_info/maps_screen.dart';
-import 'package:valorant_thunai/screens/hub/game_info/agents_screen.dart';
-import 'package:valorant_thunai/screens/hub/game_info/weapons_screen.dart';
+import 'package:vthunai/l10n/app_localizations.dart';
+import 'package:vthunai/screens/hub/game_info/maps_screen.dart';
+import 'package:vthunai/screens/hub/game_info/agents_screen.dart';
+import 'package:vthunai/screens/hub/game_info/weapons_screen.dart';
 
 class GameInfoHubScreen extends StatelessWidget {
   const GameInfoHubScreen({super.key});

@@ -1,8 +1,8 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:valorant_thunai/router/zen_router.dart'
+import 'package:vthunai/router/zen_router.dart'
     show appCoordinatorProvider;
 
-export 'package:valorant_thunai/router/zen_router.dart' show AppTab;
+export 'package:vthunai/router/zen_router.dart' show AppTab;
 
 final currentTabProvider = NotifierProvider<CurrentTabNotifier, int>(
   CurrentTabNotifier.new,

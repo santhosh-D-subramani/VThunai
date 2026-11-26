@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/legacy.dart';
 
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:valorant_thunai/theme/models/theme_config.dart';
+import 'package:vthunai/theme/models/theme_config.dart';
 
 class ThemeNotifier extends StateNotifier<ThemeConfig> {
   static const _keySeedColor = 'theme_seedColor';

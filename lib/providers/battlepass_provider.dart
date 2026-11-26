@@ -7,8 +7,8 @@ import 'auth_provider.dart';
 import 'contracts_provider.dart';
 import 'skin_provider.dart';
 
-import 'package:valorant_thunai/services/valorant_api.dart';
-import 'package:valorant_thunai/services/logger_service.dart';
+import 'package:vthunai/services/valorant_api.dart';
+import 'package:vthunai/services/logger_service.dart';
 
 class BattlepassReward {
   final String type;

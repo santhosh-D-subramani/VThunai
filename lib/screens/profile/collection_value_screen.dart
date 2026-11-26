@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:valorant_thunai/common/funny_loading_view.dart';
-import 'package:valorant_thunai/l10n/app_localizations.dart';
-import 'package:valorant_thunai/providers/collection_value_provider.dart';
-import 'package:valorant_thunai/providers/display_settings_provider.dart';
-import 'package:valorant_thunai/utils/format_utils.dart';
+import 'package:vthunai/common/funny_loading_view.dart';
+import 'package:vthunai/l10n/app_localizations.dart';
+import 'package:vthunai/providers/collection_value_provider.dart';
+import 'package:vthunai/providers/display_settings_provider.dart';
+import 'package:vthunai/utils/format_utils.dart';
 
 class CollectionValueScreen extends ConsumerWidget {
   const CollectionValueScreen({super.key});

@@ -1,6 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:valorant_thunai/l10n/app_localizations.dart';
+import 'package:vthunai/l10n/app_localizations.dart';
 
 class WeaponDetailScreen extends StatelessWidget {
   final dynamic weapon;

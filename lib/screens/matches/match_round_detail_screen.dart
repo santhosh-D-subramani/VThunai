@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:valorant_thunai/l10n/app_localizations.dart';
-import 'package:valorant_thunai/utils/match_stats_calculator.dart';
-import 'package:valorant_thunai/utils/format_utils.dart';
+import 'package:vthunai/l10n/app_localizations.dart';
+import 'package:vthunai/utils/match_stats_calculator.dart';
+import 'package:vthunai/utils/format_utils.dart';
 
 const _spikeIconUrl =
     'https://media.valorant-api.com/gamemodes/96bd3920-4f36-d026-2b28-c683eb0bcac5/displayicon.png';

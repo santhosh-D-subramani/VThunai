@@ -1,25 +1,25 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:valorant_thunai/screens/bundles/all_bundles_screen.dart';
-import 'package:valorant_thunai/screens/settings/appearance_screen.dart';
-import 'package:valorant_thunai/screens/settings/remote_config_screen.dart';
-import 'package:valorant_thunai/screens/home/home_screen.dart';
-import 'package:valorant_thunai/screens/hub/hub_screen.dart';
-import 'package:valorant_thunai/screens/party/party_screen.dart';
-import 'package:valorant_thunai/screens/profile/profile_screen.dart';
-import 'package:valorant_thunai/screens/settings/settings_screen.dart';
-import 'package:valorant_thunai/screens/social/social_chat_screen.dart';
-import 'package:valorant_thunai/widgets/account_switcher_bottom_sheet.dart';
-import 'package:valorant_thunai/constants.dart';
+import 'package:vthunai/screens/bundles/all_bundles_screen.dart';
+import 'package:vthunai/screens/settings/appearance_screen.dart';
+import 'package:vthunai/screens/settings/remote_config_screen.dart';
+import 'package:vthunai/screens/home/home_screen.dart';
+import 'package:vthunai/screens/hub/hub_screen.dart';
+import 'package:vthunai/screens/party/party_screen.dart';
+import 'package:vthunai/screens/profile/profile_screen.dart';
+import 'package:vthunai/screens/settings/settings_screen.dart';
+import 'package:vthunai/screens/social/social_chat_screen.dart';
+import 'package:vthunai/widgets/account_switcher_bottom_sheet.dart';
+import 'package:vthunai/constants.dart';
 import 'package:zenrouter/zenrouter.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:valorant_thunai/providers/auth_provider.dart';
-import 'package:valorant_thunai/screens/auth/riot_login_screen.dart';
-import 'package:valorant_thunai/services/connectivity_service.dart';
-import 'package:valorant_thunai/widgets/no_network_overlay.dart';
+import 'package:vthunai/providers/auth_provider.dart';
+import 'package:vthunai/screens/auth/riot_login_screen.dart';
+import 'package:vthunai/services/connectivity_service.dart';
+import 'package:vthunai/widgets/no_network_overlay.dart';
 
-import 'package:valorant_thunai/l10n/app_localizations.dart';
-import 'package:valorant_thunai/services/quick_actions_service.dart';
+import 'package:vthunai/l10n/app_localizations.dart';
+import 'package:vthunai/services/quick_actions_service.dart';
 
 abstract class AppRoute extends RouteTarget with RouteUnique {}
 
